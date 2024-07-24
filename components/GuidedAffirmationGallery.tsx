@@ -11,6 +11,7 @@ interface GuidedAffirmationGalleryProps{
 }
 
 const GuidedAffirmationGallery = ({title, previews}: GuidedAffirmationGalleryProps) => {
+    // console.log("previews" , previews)
   return (
     <View className='my-5'>
         <View>
